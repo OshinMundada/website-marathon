@@ -1,0 +1,116 @@
+html
+{
+	overflow-x: hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+    font-family: 'Lithos Pro';
+	color: black;
+	overflow-x: hidden;
+    margin: 0;
+    background: url('../images/regbackground.jpg') no-repeat center center fixed; 
+    background-size: cover;
+
+}
+
+#formcontainer
+{
+	width:60%;
+	margin:5% auto;
+	background-color: AliceBlue;
+	padding:15px;
+}
+
+#formmain
+{
+	margin: auto;
+	width: 95%;
+	height: 95%;
+	padding: 10px;
+	border: 2px dotted #87CEEB;
+}
+
+h4
+{
+	margin: 5px auto 20px;
+	font-size: 30px;
+	font-weight: normal;
+}
+#home_icon
+{
+	float:right;
+}
+#goback
+{
+	float:right;
+	font-size:12px;
+	clear:right;
+}
+fieldset
+{
+	margin:10px;
+}
+.leg
+{
+	font-size: 20px;
+	font-weight: normal;
+	color:SteelBlue;
+}
+table
+{
+	width:100%;
+	table-layout: fixed;
+}
+
+td
+{
+	width:33.33%;
+	padding:10px;
+}
+
+.mob
+{
+	width:10%;
+	min-width: 7%;
+}
+
+#butcontainer
+{
+	width:100%;
+	text-align: center;
+
+}
+.but
+{
+	background-color: crimson;
+	color:white;
+	border: 1px solid crimson;
+	font-family: 'Lithos Pro';
+	font-size:15px;
+	padding: 7px;
+	margin-right: 25px;
+}
+
+.reqmsg
+{
+	visibility: hidden;
+	font-family: Georgia;
+	font-size: 12px;
+	color: red;
+}
+
+.borderClass
+{
+	box-shadow: 0px 0px 3px red;
+}
+
+.phperr
+{
+	width:100%;
+	font-family: Georgia;
+	font-size: 15px;
+	color: red;
+	text-align: center;
+	padding: 10px;
+}

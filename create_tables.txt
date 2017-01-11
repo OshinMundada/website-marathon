@@ -1,0 +1,22 @@
+use jadrn032;
+
+drop table if exists MarReg;
+
+CREATE TABLE MarReg (
+firstname VARCHAR(30) NOT NULL,
+middlename VARCHAR(30),
+lastname VARCHAR(30) NOT NULL,
+gender VARCHAR(6) NOT NULL,
+dob VARCHAR(12) NOT NULL,
+photo VARCHAR(50) NOT NULL,
+address1 VARCHAR(70) NOT NULL,
+address2 VARCHAR(70),
+city VARCHAR(20) NOT NULL,
+state VARCHAR(15) NOT NULL,
+zip INT(5) NOT NULL,
+email VARCHAR(50) NOT NULL,
+phone BIGINT(10) NOT NULL,
+medical VARCHAR(70),
+explevel VARCHAR(12) NOT NULL,
+category VARCHAR(7) NOT NULL
+);
