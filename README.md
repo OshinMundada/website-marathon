@@ -1,4 +1,8 @@
 # website-marathon
+
+[![Watch the video](https://github.com/OshinMundada/website-marathon/blob/master/marathon_cover.png)](https://youtu.be/RyROKNQVftc)
+
+
 This website lets users register for a marathon. 
 It uses AJAX to verify that the form submitted is not a duplicate, 
 PHP validations, 
